@@ -24,7 +24,7 @@ Run terminal for output of the given program.
 End the program
 
 ## PROGRAM:
-
+```
 #Developed by: Priyadharshini Raja
 #Register number: 23013908
 
@@ -34,6 +34,7 @@ with open("words.txt","r")as f1:
         words=i.split()
         num +=len(words)
     print("The number of words is in the file is ",num)
+```
 
 ### OUTPUT:
 ![output](<word count s.png>)
